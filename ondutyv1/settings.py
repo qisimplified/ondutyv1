@@ -40,7 +40,8 @@ INSTALLED_APPS = [
     'django.contrib.humanize',
     'pages.apps.PagesConfig',
     'rotas.apps.RotasConfig',
-    'import_export'
+    'masterrotas.apps.MasterrotasConfig',
+    'import_export',
 ]
 
 MIDDLEWARE = [

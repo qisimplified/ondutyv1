@@ -1,6 +1,7 @@
 from django.shortcuts import render
 from django.core.paginator import EmptyPage, PageNotAnInteger, Paginator
 
+
 from .models import Rota
 # Create your views here.
 def index(request): 
@@ -20,3 +21,4 @@ def masterrota(request, rota_id):
 
 def search(request):
 	return render(request, 'rotas/search.html')
+
