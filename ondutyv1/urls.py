@@ -23,4 +23,6 @@ urlpatterns = [
     path('', include('pages.urls')),
     path('rotas/', include('rotas.urls')),
     path('masterrotas/', include('masterrotas.urls')),
+    path('accounts/', include('accounts.urls')),
+    path('contacts/', include('contacts.urls')),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
